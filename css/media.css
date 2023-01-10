@@ -12,7 +12,32 @@
         flex-wrap: wrap;
     }
 
+    .header {
+        display: flex;
+        justify-content: space-between;
+        margin: 29px 0px 26px;
+    }    
+    
+.galery {
+    margin: 0px 158px 0px;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
 }
+
+}
+
+@media (max-width:768px) {
+
+    .galery {
+        margin: 0px 50px 0px;
+        display: flex;
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+
+}
+
 
 @media (max-width: 576px) {
     .flexs {
@@ -20,7 +45,6 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+
+
 }
-
-
-
